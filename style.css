@@ -241,6 +241,9 @@ section .story .stories p{
     outline: none;
 }
 
+.footer-nav nav{
+    display: none;
+}
 
 @media(max-width: 600px){
 
@@ -302,9 +305,14 @@ header .search-box input{
     color: #8e8e8e;
 }
 
+header  nav{
+    display: none;
+}
 
 
- nav ul{
+
+
+nav ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -319,7 +327,6 @@ header nav ul a{
     color: black;
     
 }
-
 
 
 nav ul li{
@@ -340,6 +347,8 @@ header nav ul li img{
     object-fit: cover;
     
 }
+
+
 
 /* header navbar end here */
 
