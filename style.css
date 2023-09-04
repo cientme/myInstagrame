@@ -102,6 +102,10 @@ header nav ul li img{
     overflow-x: auto;
 }
 
+.story::-webkit-scrollbar{
+    width: 0;
+}
+
 section .story .stories{
     width: 70px;
     height: 70px;
