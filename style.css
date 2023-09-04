@@ -103,7 +103,7 @@ header nav ul li img{
 }
 
 .story::-webkit-scrollbar{
-    width: 0;
+    width: 0px;
 }
 
 section .story .stories{
@@ -379,6 +379,10 @@ header nav ul li img{
     background-color: white;
     padding: 30px 15px;
     overflow-x: auto;
+}
+
+.story::-webkit-scrollbar{
+    width: 0px;
 }
 
 section .story .stories{
